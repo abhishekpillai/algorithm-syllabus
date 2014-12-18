@@ -8,54 +8,54 @@ Book: [The Algorithm Design Manual](http://www.algorist.com/)
 
 ## Schedule
 
-** 1/19/2015
+### 1/19/2015
 
 ### Theme(s)
 Asymptotic Analysis, Divide-and-conquer, Merge Sort
 
 ### Lecture(s)
-Week 1 - Introduction
+- Week 1 - Introduction
 
-Week 1 - Asymptotic Analysis
+- Week 1 - Asymptotic Analysis
 
-Week 1 - Divide & Conquer Algorithms
+- Week 1 - Divide & Conquer Algorithms
 
 ### Chapter(s)
-1 - Introduction to Algorithm Design ~
+- 1 - Introduction to Algorithm Design ~
 
-2 - Algorithm Analysis
+- 2 - Algorithm Analysis
 
-4 - Sorting and Searching
+- 4 - Sorting and Searching
 
-  Sections
+    - Sections
 
-  1 - Applications of Sorting
+        - 1 - Applications of Sorting
 
-  2 - Pragmatics of Sorting
+        - 2 - Pragmatics of Sorting
 
-  5 - Merge Sort
+        - 5 - Merge Sort
 
-  10 - Divide-and-Conquer
+        - 10 - Divide-and-Conquer
 
-  11 - Exercises
+        - 11 - Exercises
 
-** 1/26/2015
+### 1/26/2015
 
 ### Theme(s)
 Master Method, QuickSort
 
 ### Lecture(s)
-Week 2 - The Master Method
+- Week 2 - The Master Method
 
-Week 2 - Quicksort - Algorithm
+- Week 2 - Quicksort - Algorithm
 
-Week 2 - Quicksort - Analysis
+- Week 2 - Quicksort - Analysis
 
-Week 2 - Probability Review ~
+- Week 2 - Probability Review ~
 
 ### Chapter(s)
-4 - Sorting and Searching
+- 4 - Sorting and Searching
 
-  Sections
+    - Sections
 
-  6 - Quicksort: Sorting by Randomization
+        6 - Quicksort: Sorting by Randomization
