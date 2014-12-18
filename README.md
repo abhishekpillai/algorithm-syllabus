@@ -39,6 +39,8 @@ Asymptotic Analysis, Divide-and-conquer, Merge Sort
 
         - 11 - Exercises
 
+***
+
 ### 1/26/2015
 
 ### Theme(s)
@@ -59,3 +61,5 @@ Master Method, QuickSort
     - Sections
 
         6 - Quicksort: Sorting by Randomization
+
+***
