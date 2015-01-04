@@ -85,4 +85,52 @@ pending
 ### Additional Resources
 - [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
 ***
+
+### 2/9/2015
+
+### Theme(s)
+Graphs
+
+### Lecture(s)
+- Week 4 - Graph Search And Connectivity
+
+### Chapter(s)
+pending
+
+### Additional Resources
+- [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
+***
+
+### 2/16/2015
+
+### Theme(s)
+Path Traversal, Heaps, Trees
+
+### Lecture(s)
+- Week 5 - Dijkstra's Shortest-Path Algorithm
+
+- Week 5 - Heaps
+
+- Week 5 - Balanced Binary Search Trees
+
+### Chapter(s)
+pending
+
+***
+### 2/23/2015
+
+### Theme(s)
+Hashing, Bloom Filters
+
+### Lecture(s)
+- Week 6 - Hashing: The Basics
+
+- Week 6 - Universal Hashing
+
+- Week 6 - Bloom Filters
+
+### Chapter(s)
+pending
+
+***
 ***
