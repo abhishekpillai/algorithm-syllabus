@@ -6,6 +6,15 @@ Book: [The Algorithm Design Manual](http://www.algorist.com/)
 
 * The tilde ~ means something is optional, but for the purposes of this group you should probably read/complete it.
 
+## Index
+
+1. [Week 1](#1192015)
+2. [Week 2](#1262015)
+3. [Week 3](#222015)
+4. [Week 4](#292015)
+5. [Week 5](#2162015)
+6. [Week 6](#2232015)
+
 ## Schedule
 
 ### 1/19/2015
