@@ -10,17 +10,17 @@ Book: [The Algorithm Design Manual](http://www.algorist.com/)
 
 ### 1/19/2015
 
-### Theme(s)
+### Themes
 Asymptotic Analysis, Divide-and-conquer, Merge Sort
 
-### Lecture(s)
+### Lectures
 - Week 1 - Introduction
 
 - Week 1 - Asymptotic Analysis
 
 - Week 1 - Divide & Conquer Algorithms
 
-### Chapter(s)
+### Chapters
 - 1 - Introduction to Algorithm Design ~
 
 - 2 - Algorithm Analysis
@@ -42,14 +42,15 @@ Asymptotic Analysis, Divide-and-conquer, Merge Sort
 ### Additional Resources
 - [Khan Academy Asymptotic Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 - [Khan Academy Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
+
 ***
 
 ### 1/26/2015
 
-### Theme(s)
+### Themes
 Master Method, QuickSort
 
-### Lecture(s)
+### Lectures
 - Week 2 - The Master Method
 
 - Week 2 - Quicksort - Algorithm
@@ -58,7 +59,7 @@ Master Method, QuickSort
 
 - Week 2 - Probability Review ~
 
-### Chapter(s)
+### Chapters
 - 4 - Sorting and Searching
 
     - Sections
@@ -67,31 +68,33 @@ Master Method, QuickSort
 
 ### Additional Resources
 - [Khan Academy Quicksort](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
+
 ***
 
 ### 2/2/2015
 
-### Theme(s)
+### Themes
 Linear-Time Selection, Graphs
 
-### Lecture(s)
+### Lectures
 - Week 3 - Linear-Time Selection
 
 - Week 3 - Graphs And The Contraction Algorithm
 
-### Chapter(s)
+### Chapters
 pending
 
 ### Additional Resources
 - [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
+
 ***
 
 ### 2/9/2015
 
-### Theme(s)
+### Theme
 Graphs
 
-### Lecture(s)
+### Lecture
 - Week 4 - Graph Search And Connectivity
 
 ### Chapter(s)
@@ -99,38 +102,38 @@ pending
 
 ### Additional Resources
 - [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
+
 ***
 
 ### 2/16/2015
 
-### Theme(s)
+### Themes
 Path Traversal, Heaps, Trees
 
-### Lecture(s)
+### Lectures
 - Week 5 - Dijkstra's Shortest-Path Algorithm
 
 - Week 5 - Heaps
 
 - Week 5 - Balanced Binary Search Trees
 
-### Chapter(s)
+### Chapters
 pending
 
 ***
 ### 2/23/2015
 
-### Theme(s)
+### Themes
 Hashing, Bloom Filters
 
-### Lecture(s)
+### Lectures
 - Week 6 - Hashing: The Basics
 
 - Week 6 - Universal Hashing
 
 - Week 6 - Bloom Filters
 
-### Chapter(s)
+### Chapters
 pending
 
-***
 ***
