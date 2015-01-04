@@ -39,6 +39,9 @@ Asymptotic Analysis, Divide-and-conquer, Merge Sort
 
         - 11 - Exercises
 
+### Additional Resources
+- [Khan Academy Asymptotic Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
+- [Khan Academy Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms)
 ***
 
 ### 1/26/2015
@@ -62,4 +65,24 @@ Master Method, QuickSort
 
         6 - Quicksort: Sorting by Randomization
 
+### Additional Resources
+- [Khan Academy Quicksort](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
+***
+
+### 2/2/2015
+
+### Theme(s)
+Linear-Time Selection, Graphs
+
+### Lecture(s)
+- Week 3 - Linear-Time Selection
+
+- Week 3 - Graphs And The Contraction Algorithm
+
+### Chapter(s)
+pending
+
+### Additional Resources
+- [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
+***
 ***
