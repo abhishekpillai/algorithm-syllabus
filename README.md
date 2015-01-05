@@ -91,7 +91,23 @@ Linear-Time Selection, Graphs
 - Week 3 - Graphs And The Contraction Algorithm
 
 ### Chapters
-pending
+- 4 - Sorting and Searching
+
+    - Sections
+
+        6 - Quicksort: Sorting by Randomization, again
+
+- 5 - Graph Traversal
+
+    - Sections
+
+        1 - Flavors of Graphs
+
+        2 - Data Structures for Graphs
+
+        3 - War Story: I was a Victim of Moore's Law
+
+        4 - War Story: Getting the Graph
 
 ### Additional Resources
 - [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
@@ -107,7 +123,8 @@ Graphs
 - Week 4 - Graph Search And Connectivity
 
 ### Chapter(s)
-pending
+- 5 - Graph Traversal
+- 6 - Weighted Graph Algorithms
 
 ### Additional Resources
 - [Khan Academy Graph representation](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs)
@@ -117,7 +134,7 @@ pending
 ### 2/16/2015
 
 ### Themes
-Path Traversal, Heaps, Trees
+Graph Traversal, Heaps, Trees
 
 ### Lectures
 - Week 5 - Dijkstra's Shortest-Path Algorithm
@@ -127,7 +144,9 @@ Path Traversal, Heaps, Trees
 - Week 5 - Balanced Binary Search Trees
 
 ### Chapters
-pending
+- 5 - Graph Traversal
+
+- 3 - Data Structures
 
 ***
 ### 2/23/2015
@@ -143,6 +162,15 @@ Hashing, Bloom Filters
 - Week 6 - Bloom Filters
 
 ### Chapters
-pending
 
-***
+ - 3 - Data Structures
+
+    - Sections
+
+        7 - Hashing and Strings
+
+ - 12 - Data Structures
+
+    - Sections
+
+        5 - Set Data Structures
