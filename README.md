@@ -5,6 +5,7 @@ Course: [Stanford's Algorithm: Design and Analysis, Part 1 by Tim Roughgarden](h
 Book: [The Algorithm Design Manual](http://www.algorist.com/)
 
 * The tilde ~ means something is optional, but for the purposes of this group you should probably read/complete it.
+* Exercises from the book would probably be good practice but can be considered optional; course exercises take precedence.
 
 ## Index
 
@@ -45,8 +46,6 @@ Asymptotic Analysis, Divide-and-conquer, Merge Sort
         - 5 - Merge Sort
 
         - 10 - Divide-and-Conquer
-
-        - 11 - Exercises
 
 ### Additional Resources
 - [Khan Academy Asymptotic Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
