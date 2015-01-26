@@ -15,49 +15,59 @@ class Homework1
   class << self
     def run
       array = file_to_array("./week-1/homework/integer_array_homework_1.txt")
-      p find_num_inversions(array)
+      p sort_and_count_inversions(array, array.size)
     end
 
     def file_to_array(filename)
       File.read(filename).split("\r\n").map(&:to_i)
     end
 
-    def find_num_inversions(array)
-      array_length = array.size
-      half_length_of_array = array_length / 2
-      first_half = array[0...half_length_of_array]
-      second_half = array[half_length_of_array...array.size]
+    def sort_and_count_inversions(array, length)
+      if length == 1
+        return [nil, 0]
+      else
+        first_half = array[0...length / 2]
+        second_half = array[length / 2...length]
+        _, count_x = sort_and_count_inversions(first_half, first_half.size)
+        _, count_y = sort_and_count_inversions(second_half, second_half.size)
+        sorted_z, count_z = merge_and_count_split(array, length)
+        [sorted_z, (count_x + count_y + count_z)]
+      end
+    end
 
-      first_half.sort!
-      second_half.sort!
-
-      num_inversions = 0
+    def merge_and_count_split(array, length)
+      merged_array = []
+      half_length_of_array = length / 2
+      first_half = array[0, half_length_of_array]
+      second_half = array[half_length_of_array, half_length_of_array]
       first_index = 0
       second_index = 0
-      merged_array = []
-      while merged_array.size < array_length do
-        first_value = first_half[first_index]
-        second_value = second_half[second_index]
+      num_split = 0
+      length.times do
+        p first_value = first_half[first_index]
+        p second_value = second_half[second_index]
         if first_value.nil?
-          merged_array.concat(second_half[second_index...array_length])
+          merged_array.concat(second_half[second_index, half_length_of_array])
+          num_split += half_length_of_array - first_index
           next
         elsif second_value.nil?
-          merged_array.concat(first_half[first_index...half_length_of_array])
+          merged_array.concat(first_half[first_index, half_length_of_array])
           next
         end
 
         if first_value > second_value
-          num_inversions += 1 if first_index < second_index
           merged_array << second_value
           second_index += 1
-        elsif second_value > first_value
-          num_inversions += 1 if second_index < first_index
+          num_split += half_length_of_array - first_index
+        else # first_half[first_index] < second_half[second_index]
           merged_array << first_value
           first_index += 1
         end
       end
-      p merged_array
-      num_inversions
+
+      [merged_array, num_split]
     end
   end
 end
+
+Homework1.run
