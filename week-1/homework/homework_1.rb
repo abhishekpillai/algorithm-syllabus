@@ -12,12 +12,16 @@
 require 'byebug'
 
 class Homework1
-  class << self
-    def run
-      array = file_to_array("./week-1/homework/integer_array_homework_1.txt")
-      p sort_and_count_inversions(array, array.size)
-    end
+  def initialize(filename)
+    @input_array = self.class.file_to_array(filename)
+  end
 
+  def run
+    _, count = self.class.sort_and_count_inversions(@input_array, @input_array.size)
+    p count
+  end
+
+  class << self
     def file_to_array(filename)
       File.read(filename).split("\r\n").map(&:to_i)
     end
@@ -39,27 +43,25 @@ class Homework1
       merged_array = []
       half_length_of_array = length / 2
       first_half = array[0, half_length_of_array]
-      second_half = array[half_length_of_array, half_length_of_array]
+      second_half = array[half_length_of_array, length]
       first_index = 0
       second_index = 0
       num_split = 0
       length.times do
-        p first_value = first_half[first_index]
-        p second_value = second_half[second_index]
-        if first_value.nil?
-          merged_array.concat(second_half[second_index, half_length_of_array])
-          num_split += half_length_of_array - first_index
-          next
-        elsif second_value.nil?
-          merged_array.concat(first_half[first_index, half_length_of_array])
-          next
-        end
+        first_value = first_half[first_index]
+        second_value = second_half[second_index]
 
-        if first_value > second_value
+        if first_value.nil?
+          merged_array << second_value
+          second_index += 1
+        elsif second_value.nil?
+          merged_array << first_value
+          first_index += 1
+        elsif first_value > second_value
           merged_array << second_value
           second_index += 1
           num_split += half_length_of_array - first_index
-        else # first_half[first_index] < second_half[second_index]
+        elsif first_value < second_value
           merged_array << first_value
           first_index += 1
         end
@@ -70,4 +72,4 @@ class Homework1
   end
 end
 
-Homework1.run
+Homework1.new("./week-1/homework/integer_array_homework_1.txt").run
