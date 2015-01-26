@@ -12,16 +12,13 @@
 require 'byebug'
 
 class Homework1
-  def initialize(filename)
-    @input_array = self.class.file_to_array(filename)
-  end
-
-  def run
-    _, count = self.class.sort_and_count_inversions(@input_array, @input_array.size)
-    p count
-  end
-
   class << self
+    def run(filename)
+      input_array = file_to_array(filename)
+      _, count = sort_and_count_inversions(input_array, input_array.size)
+      p count
+    end
+
     def file_to_array(filename)
       File.read(filename).split("\r\n").map(&:to_i)
     end
@@ -72,4 +69,4 @@ class Homework1
   end
 end
 
-Homework1.new("./week-1/homework/integer_array_homework_1.txt").run
+Homework1.run("./week-1/homework/integer_array_homework_1.txt")
