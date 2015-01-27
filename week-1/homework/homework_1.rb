@@ -25,22 +25,20 @@ class Homework1
 
     def sort_and_count_inversions(array, length)
       if length == 1
-        return [nil, 0]
+        return [array, 0]
       else
         first_half = array[0...length / 2]
         second_half = array[length / 2...length]
-        _, count_x = sort_and_count_inversions(first_half, first_half.size)
-        _, count_y = sort_and_count_inversions(second_half, second_half.size)
-        sorted_z, count_z = merge_and_count_split(array, length)
+        sorted_x, count_x = sort_and_count_inversions(first_half, first_half.size)
+        sorted_y, count_y = sort_and_count_inversions(second_half, second_half.size)
+        sorted_z, count_z = merge_and_count_split(sorted_x, sorted_y, length)
         [sorted_z, (count_x + count_y + count_z)]
       end
     end
 
-    def merge_and_count_split(array, length)
+    def merge_and_count_split(first_half, second_half, length)
       merged_array = []
       half_length_of_array = length / 2
-      first_half = array[0, half_length_of_array]
-      second_half = array[half_length_of_array, length]
       first_index = 0
       second_index = 0
       num_split = 0
